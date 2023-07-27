@@ -1,0 +1,67 @@
+.fitback {
+  display: inline-block;
+  margin: 24px;
+  padding: 24px 46px;
+  max-width: 550px;
+
+  text-align: left;
+  border: 1px solid #E4E4E4;
+  box-shadow: 15px 15px 0 var(--color-main);
+  background-color: white;
+
+  &_wrapper {
+    text-align: center;
+    margin: 0 auto 128px auto;
+  }
+
+  &_header {
+    display: block;
+    margin: 0 auto 24px auto;
+    white-space: nowrap;
+
+    &_icon {
+      display: inline-block;
+      height: 85px;
+      width: 85px;
+      margin: 0 32px 0 0;
+      border-radius: 85px;
+      vertical-align: top;
+    }
+
+    &_text {
+      display: inline-block;
+      vertical-align: top;
+
+      &_title,
+      &_description {
+        color: #1C1C27;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+      }
+
+      &_title {
+        font-size: var(--space-xxl);
+        padding: 16px 0 0 0;
+        margin: 0 0 4px 0;
+      }
+
+      &_description {
+        font-size: 19px;
+        line-height: 1.5;
+        color: #919293;
+      }
+    }
+  }
+
+  &_message {
+    font-size: 19px;
+    color: #1C1C27;
+    display: block;
+
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+

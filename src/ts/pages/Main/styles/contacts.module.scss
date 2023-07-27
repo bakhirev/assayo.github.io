@@ -1,0 +1,95 @@
+.contacts {
+  &_nav {
+    display: block;
+    text-align: center;
+    margin: 0 0 56px 0;
+
+    &_link {
+      font-size: 18px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0 40px 0 0;
+
+      line-height: 1.3;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-align: center;
+
+      color: #88888C;
+
+      &_selected {
+        cursor: default;
+        color: var(--color-main);
+      }
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  &_address {
+    display: block;
+    margin: 0 auto;
+    width: 850px;
+    text-align: left;
+
+    &_street,
+    &_phone,
+    &_email,
+    &_time {
+      position: relative;
+      font-size: 18px;
+      font-weight: 100;
+      display: inline-block;
+      width: 550px;
+      padding: 0 0 0 32px;
+      margin: 0 18px 18px 0;
+
+      line-height: 18px;
+      box-sizing: border-box;
+      text-decoration: none;
+      vertical-align: top;
+      text-align: left;
+      color: black;
+
+      &:before {
+        position: absolute;
+        top: -2px;
+        left: 0;
+        content: "";
+
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+
+        vertical-align: middle;
+        box-sizing: border-box;
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_email,
+    &_time {
+      width: 200px;
+    }
+
+    &_street:before {
+      background-image: url('../../../../assets/contacts/street.png');
+    }
+
+    &_phone:before {
+      background-image: url('../../../../assets/contacts/phone.png');
+    }
+
+    &_email:before {
+      background-image: url('../../../../assets/contacts/mail.png');
+    }
+
+    &_time:before {
+      background-image: url('../../../../assets/contacts/clock.png');
+    }
+  }
+}

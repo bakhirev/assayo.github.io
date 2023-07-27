@@ -1,0 +1,47 @@
+.button,
+.button_link {
+    font-size: 14px;
+    font-weight: 100;
+
+    display: inline-block;
+    padding: 12px 24px;
+    min-width: 160px;
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 16px;
+    border-radius: 8px;
+
+    color: white;
+    background-color: var(--color-main);
+}
+
+.button_link {
+    color: black;
+    background-color: transparent;
+}
+
+.button_link:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+}
+
+.button_link:after {
+    content: "";
+
+    display: inline-block;
+    height: 12px;
+    width: 22px;
+    margin: 2px 0 0 8px;
+
+    vertical-align: top;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-image: url('../../../../assets/arrow.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
