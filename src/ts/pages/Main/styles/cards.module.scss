@@ -17,7 +17,6 @@
     box-sizing: border-box;
     text-align: center;
     vertical-align: top;
-    background-color: white;
   }
 
   &_title {
@@ -52,7 +51,6 @@
       width: 18px;
 
       box-sizing: border-box;
-      background-color: white;
       background-size: 100%;
       background-image: url('../../../../assets/check.png');
       background-position: center center;
@@ -106,4 +104,14 @@
     display: block;
     margin: 0 auto;
   }
+}
+
+@media screen and (max-width: 700px) {
+  .cards_view_description {
+    font-size: 16px;
+    margin: 0 0 16px 0;
+  }
+  .cards_view_list {
+     margin: 0 0 0 40px;
+   }
 }

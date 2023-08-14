@@ -19,6 +19,7 @@
   display: block;
   width: 90%;
   max-width: var(--site-width);
+  min-height: 50px;
   padding: var(--temp-padding) 0;
   margin: 0 auto;
   text-align: right;
@@ -81,3 +82,8 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .header_nav {
+    display: none;
+  }
+}

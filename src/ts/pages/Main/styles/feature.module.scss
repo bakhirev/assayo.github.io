@@ -45,6 +45,7 @@
     margin: 32px auto 0 auto;
     white-space: normal;
     vertical-align: middle;
+
     &_1,
     &_2,
     &_3 {
@@ -53,10 +54,12 @@
       background-color: white;
       box-shadow: 15px 15px 0 var(--color-main);
     }
+
     &_2 {
       top: 40px;
       left: 64px;
     }
+
     &_3 {
       top: 80px;
       left: 128px;
@@ -105,3 +108,8 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .feature_view {
+    display: none;
+  }
+}

@@ -37,7 +37,7 @@ function Demo(): React.ReactElement | null {
           <a
             className={button.button_link}
             target="_blank"
-            href="/demo/?dump=./test.git"
+            href="/demo/?dump=./test.txt"
           >
             {localization.get('main.demo.link2')}
           </a>

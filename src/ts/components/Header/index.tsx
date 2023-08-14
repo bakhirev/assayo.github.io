@@ -28,7 +28,7 @@ function Header({
           </a>
           <a
             className={style.header_link}
-            href="/demo/?dump=./test.git"
+            href="/demo/"
             rel="noreferrer"
             target="_blank"
           >
