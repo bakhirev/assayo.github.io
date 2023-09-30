@@ -9,6 +9,7 @@ import Demo from './components/Demo';
 import Features from './components/Features';
 import Users from './components/Users';
 import Comments from './components/Comments';
+import Docker from './components/Docker';
 
 import style from './styles/background.module.scss';
 
@@ -46,6 +47,7 @@ function MainPage() {
         <Users/>
         <Features/>
         <Comments/>
+        <Docker/>
       </main>
       <Footer/>
     </>

@@ -13,7 +13,6 @@ class Localization {
     if (!this.translations[langId]) {
       this.translations[langId] = {};
     }
-    console.dir(langId);
 
     text.split('§ ').slice(1).forEach((part: string) => {
       let index = part.indexOf('\n');

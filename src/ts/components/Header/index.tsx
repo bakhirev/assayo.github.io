@@ -42,6 +42,14 @@ function Header({
           >
             GitHub
           </a>
+          <a
+            className={style.header_link}
+            href="https://hub.docker.com/r/bakhirev/assayo"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Docker
+          </a>
         </nav>
         <select className={style.header_select}>
           <option value="ru">Русский</option>

@@ -29,14 +29,12 @@ function Demo(): React.ReactElement | null {
         <nav className={style.main_view_nav}>
           <a
             className={button.button}
-            target="_blank"
             href="/demo/"
           >
             {localization.get('main.demo.link1')}
           </a>
           <a
             className={button.button_link}
-            target="_blank"
             href="/demo/?dump=./test.txt"
           >
             {localization.get('main.demo.link2')}

@@ -43,6 +43,11 @@ const some =  localization.add('ru', `
 § main.comments.user3.message: Сделал аудит проекта. Нашел двух программистов, которые не работали. Поменял менеджера проекта, поменял программистов.
 § main.comments.user4.name: Марат Мометов
 § main.comments.user4.message: Если ты тимлид, который следит за проектом, но не знаешь реально человек наткнулся на проблему и срываются сроки или он ничего не делает, то такой инструмент сильно полезен.
+§ main.docker.text1: Скачай готовый
+§ main.docker.text2: Docker образ
+§ main.docker.text3: Разверни контейнер
+§ main.docker.text4: у себя в облаке
+§ main.docker.button: Скачать
 `);
 
 export default some;
