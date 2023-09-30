@@ -1,0 +1,83 @@
+.docker {
+  display: grid;
+  grid-template-areas: 'fish text cloud';
+  grid-template-columns: 1fr 400px 2fr;
+
+  margin: 190px auto;
+
+  &_fish {
+    grid-area: fish;
+    text-align: right;
+  }
+
+  &_cloud {
+    grid-area: cloud;
+    text-align: left;
+  }
+
+  &_fish_icon,
+  &_cloud_icon {
+    display: inline-block;
+    width: 90%;
+  }
+
+  &_text {
+    text-align: right;
+    line-height: 1.5;
+
+    &_1,
+    &_2,
+    &_3,
+    &_4 {
+      text-align: left;
+    }
+
+    &_2,
+    &_4 {
+      text-indent: 110px;
+    }
+
+    &_4 {
+      color: var(--color-main);
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .docker {
+    grid-template-areas: 'text cloud';
+    grid-template-columns: 400px 1fr;
+
+    &_fish {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .docker {
+    grid-template-areas: 'fish text';
+    grid-template-columns: 1fr 400px;
+    margin: 64px auto;
+
+    &_fish {
+      display: block;
+    }
+
+    &_cloud {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .docker {
+    grid-template-areas: 'text';
+    grid-template-columns: 1fr;
+
+    &_fish,
+    &_cloud {
+      display: none;
+    }
+  }
+}
