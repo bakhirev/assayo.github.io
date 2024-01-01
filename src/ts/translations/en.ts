@@ -1,9 +1,9 @@
 export default `
 § header.main: Main
 § header.demo: Demo
-§ main.demo.title1: Audit
-§ main.demo.title2: git-статистики
-§ main.demo.description: Получи аудит своего или чужого проекта
+§ main.demo.title1: git statistics
+§ main.demo.title2: visualization
+§ main.demo.description: Get an audit of your own or someone else's project
 § main.demo.link1: Demo
 § main.demo.link2: Demo with mock data
 § main.feature.title: Хотите развернуть у себя?
