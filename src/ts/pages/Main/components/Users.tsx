@@ -1,6 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-import localization from 'ts/helpers/Localization';
 
 import style from '../styles/cards.module.scss';
 
@@ -52,44 +52,45 @@ function Column({
 }
 
 function Users(): React.ReactElement | null {
+  const { t } = useTranslation();
   return (
     <section className={style.cards_view}>
       <Column
-        title={localization.get('main.users.code.title')}
+        title={t('main.users.code.title')}
         icon="&lt;code/&gt;"
         backgroundClass={style.cards_view_icon_code}
         features={[
-          localization.get('main.users.code.description1'),
-          localization.get('main.users.code.description2'),
-          localization.get('main.users.code.description3'),
-          localization.get('main.users.code.description4'),
-          localization.get('main.users.code.description5'),
+          t('main.users.code.description1'),
+          t('main.users.code.description2'),
+          t('main.users.code.description3'),
+          t('main.users.code.description4'),
+          t('main.users.code.description5'),
         ]}
       />
 
       <Column
-        title={localization.get('main.users.boss.title')}
+        title={t('main.users.boss.title')}
         icon="for lead"
         backgroundClass={style.cards_view_icon_lead}
         features={[
-          localization.get('main.users.boss.description1'),
-          localization.get('main.users.boss.description2'),
-          localization.get('main.users.boss.description3'),
-          localization.get('main.users.boss.description4'),
-          localization.get('main.users.boss.description5'),
+          t('main.users.boss.description1'),
+          t('main.users.boss.description2'),
+          t('main.users.boss.description3'),
+          t('main.users.boss.description4'),
+          t('main.users.boss.description5'),
         ]}
       />
 
       <Column
-        title={localization.get('main.users.ceo.title')}
+        title={t('main.users.ceo.title')}
         icon="$ € ¥"
         backgroundClass={style.cards_view_icon_boss}
         features={[
-          localization.get('main.users.ceo.description1'),
-          localization.get('main.users.ceo.description2'),
-          localization.get('main.users.ceo.description3'),
-          localization.get('main.users.ceo.description4'),
-          localization.get('main.users.ceo.description5'),
+          t('main.users.ceo.description1'),
+          t('main.users.ceo.description2'),
+          t('main.users.ceo.description3'),
+          t('main.users.ceo.description4'),
+          t('main.users.ceo.description5'),
         ]}
       />
     </section>

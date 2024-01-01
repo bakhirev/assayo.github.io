@@ -1,12 +1,13 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import title from 'ts/components/Title/index.module.scss';
-import localization from 'ts/helpers/Localization';
 
 import button from '../styles/button.module.scss';
 import style from '../styles/docker.module.scss';
 
 function Docker(): React.ReactElement | null {
+  const { t } = useTranslation();
   return (
     <div className={style.docker}>
       <div className={style.docker_fish}>
@@ -17,16 +18,16 @@ function Docker(): React.ReactElement | null {
       </div>
       <div className={`${title.title} ${style.docker_text}`}>
         <p className={style.docker_text_1}>
-          {localization.get('main.docker.text1')}
+          {t('main.docker.text1')}
         </p>
         <p className={style.docker_text_2}>
-          {localization.get('main.docker.text2')}
+          {t('main.docker.text2')}
         </p>
         <p className={style.docker_text_3}>
-          {localization.get('main.docker.text3')}
+          {t('main.docker.text3')}
         </p>
         <p className={style.docker_text_4}>
-          {localization.get('main.docker.text4')}
+          {t('main.docker.text4')}
         </p>
         <a
           className={button.button}
@@ -34,7 +35,7 @@ function Docker(): React.ReactElement | null {
           rel="noreferrer"
           href="https://hub.docker.com/r/bakhirev/assayo"
         >
-          {localization.get('main.docker.button')}
+          {t('main.docker.button')}
         </a>
       </div>
       <div className={style.docker_cloud}>

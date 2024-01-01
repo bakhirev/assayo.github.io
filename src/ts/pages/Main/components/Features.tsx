@@ -1,13 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-import localization from 'ts/helpers/Localization';
 import style from '../styles/feature.module.scss';
 
 function Features(): React.ReactElement | null {
+  const { t } = useTranslation();
   return (
     <section className={style.feature_view}>
       <h2 className={style.feature_view_title}>
-        {localization.get('main.feature.title')}
+        {t('main.feature.title')}
       </h2>
       <div className={style.feature_view_icon}>
         <img
@@ -25,22 +26,22 @@ function Features(): React.ReactElement | null {
       </div>
       <ul className={style.feature_view_list}>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description1')}
+          {t('main.feature.description1')}
         </li>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description2')}
+          {t('main.feature.description2')}
         </li>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description3')}
+          {t('main.feature.description3')}
         </li>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description4')}
+          {t('main.feature.description4')}
         </li>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description5')}
+          {t('main.feature.description5')}
         </li>
         <li className={style.feature_view_description}>
-          {localization.get('main.feature.description6')}
+          {t('main.feature.description6')}
         </li>
       </ul>
     </section>

@@ -1,13 +1,11 @@
-import localization from 'ts/helpers/Localization';
-
-const some =  localization.add('ru', `
-§ header.main: Главная
-§ header.demo: Демо
-§ main.demo.title1: Аудит
+export default `
+§ header.main: Main
+§ header.demo: Demo
+§ main.demo.title1: Audit
 § main.demo.title2: git-статистики
 § main.demo.description: Получи аудит своего или чужого проекта
-§ main.demo.link1: Получить
-§ main.demo.link2: Демо с тестовыми данными
+§ main.demo.link1: Demo
+§ main.demo.link2: Demo with mock data
 § main.feature.title: Хотите развернуть у себя?
 § main.feature.description1: Полностью коробочное решение
 § main.feature.description2: Брендирование интерфейса
@@ -16,24 +14,24 @@ const some =  localization.add('ru', `
 § main.feature.description5: Поставка в виде docker образа
 § main.feature.description6: Нет своих серверов? Подключим к облаку!
 § main.users.title: Можно оценить команду или проект
-§ main.users.code.title: Программисту
-§ main.users.code.description1: темп работы
-§ main.users.code.description2: количество переработок
-§ main.users.code.description3: зоны ответственности
-§ main.users.code.description4: объем фичей и багов
+§ main.users.code.title: Employee
+§ main.users.code.description1: working style of colleagues
+§ main.users.code.description2: number of extra hours worked
+§ main.users.code.description3: areas of competence
+§ main.users.code.description4: volume of features and bugs
 § main.users.code.description5: ачивки за стиль работы
-§ main.users.boss.title: Руководителю
-§ main.users.boss.description1: выявление бездельников
-§ main.users.boss.description2: распределение задач
-§ main.users.boss.description3: скорость работы
-§ main.users.boss.description4: аномалии поведения
-§ main.users.boss.description5: динамика по неделям
-§ main.users.ceo.title: Инвестору
-§ main.users.ceo.description1: стоимость продукта
-§ main.users.ceo.description2: стоимость фичей
-§ main.users.ceo.description3: время на разработку
-§ main.users.ceo.description4: прогноз времи доработок
-§ main.users.ceo.description5: прогноз стоимости
+§ main.users.boss.title: Teamlead
+§ main.users.boss.description1: identify slackers
+§ main.users.boss.description2: amount of code
+§ main.users.boss.description3: work speed
+§ main.users.boss.description4: behavioral anomalies
+§ main.users.boss.description5: dynamics of work by week
+§ main.users.ceo.title: Founder
+§ main.users.ceo.description1: product cost
+§ main.users.ceo.description2: cost of features
+§ main.users.ceo.description3: development time
+§ main.users.ceo.description4: forecast of rework time
+§ main.users.ceo.description5: forecast cost
 § main.comments.title: Отзывы заказчиков
 § main.comments.user1.name: Никита Соломихин
 § main.comments.user1.message: Программа дает возможность смотреть, как на самом деле работает команда и сопоставлять с тем, что ты слышишь на дейли. Для руководителя прямо очень норм.
@@ -47,7 +45,6 @@ const some =  localization.add('ru', `
 § main.docker.text2: Docker образ
 § main.docker.text3: Разверни контейнер
 § main.docker.text4: у себя в облаке
-§ main.docker.button: Скачать
-`);
-
-export default some;
+§ main.docker.button: Download
+§ main.footer.copy: All rights reserved
+`;

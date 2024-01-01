@@ -1,11 +1,11 @@
 import React from 'react';
-
-import localization from 'ts/helpers/Localization';
+import { useTranslation } from 'react-i18next';
 
 import style from '../styles/main.module.scss';
 import button from '../styles/button.module.scss';
 
 function Demo(): React.ReactElement | null {
+  const { t } = useTranslation();
   return (
     <section className={style.main_view}>
       <figure className={style.main_view_icon}>
@@ -17,27 +17,27 @@ function Demo(): React.ReactElement | null {
       <article className={style.main_view_article}>
         <h1 className={style.main_view_title}>
           <b className={style.main_view_sub_first}>
-            {localization.get('main.demo.title1')}
+            {t('main.demo.title1')}
           </b>
           <b className={style.main_view_sub_second}>
-            {localization.get('main.demo.title2')}
+            {t('main.demo.title2')}
           </b>
         </h1>
         <p className={style.main_view_description}>
-          {localization.get('main.demo.description')}
+          {t('main.demo.description')}
         </p>
         <nav className={style.main_view_nav}>
           <a
             className={button.button}
             href="/demo/"
           >
-            {localization.get('main.demo.link1')}
+            {t('main.demo.link1')}
           </a>
           <a
             className={button.button_link}
             href="/demo/?dump=./test.txt"
           >
-            {localization.get('main.demo.link2')}
+            {t('main.demo.link2')}
           </a>
         </nav>
       </article>

@@ -1,9 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import Header from 'ts/components/Header';
 import Footer from 'ts/components/Footer';
 import Title from 'ts/components/Title';
-import localization from 'ts/helpers/Localization';
 
 import Demo from './components/Demo';
 import Features from './components/Features';
@@ -37,13 +37,14 @@ function Background() {
 }
 
 function MainPage() {
+  const { t } = useTranslation();
   return (
     <>
       <Background />
       <Header/>
       <main>
         <Demo/>
-        <Title text={localization.get('main.users.title')} />
+        <Title text={t('main.users.title')} />
         <Users/>
         <Features/>
         <Comments/>

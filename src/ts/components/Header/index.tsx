@@ -1,6 +1,6 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-import localization from 'ts/helpers/Localization';
 import style from './index.module.scss';
 
 interface IHeaderPorps {
@@ -12,6 +12,7 @@ function Header({
   icon,
   className,
 }: IHeaderPorps) {
+  const { t, i18n } = useTranslation();
   return (
     <header className={`${style.header_wrapper} ${className || ''}`}>
       <div className={style.header}>
@@ -24,7 +25,7 @@ function Header({
             className={style.header_link}
             href="/"
           >
-            {localization.get('header.main')}
+            {t('header.main')}
           </a>
           <a
             className={style.header_link}
@@ -32,7 +33,7 @@ function Header({
             rel="noreferrer"
             target="_blank"
           >
-            {localization.get('header.demo')}
+            {t('header.demo')}
           </a>
           <a
             className={style.header_link}
@@ -51,7 +52,13 @@ function Header({
             Docker
           </a>
         </nav>
-        <select className={style.header_select}>
+        <select
+          className={style.header_select}
+          onChange={(event) => {
+            console.dir(event.target.value);
+            i18n.changeLanguage(event.target.value);
+          }}
+        >
           <option value="ru">Русский</option>
           <option value="en">English</option>
           <option value="es">Español</option>
