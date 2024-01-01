@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import Header from 'ts/components/Header';
@@ -37,7 +38,13 @@ function Background() {
 }
 
 function MainPage() {
-  const { t } = useTranslation();
+  const { lang } = useParams<any>();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(lang || 'ru');
+  }, [lang]);
+
   return (
     <>
       <Background />

@@ -1,5 +1,8 @@
 import React from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+
+import UiKitSelect from 'ts/components/Select';
 
 import style from './index.module.scss';
 
@@ -12,7 +15,10 @@ function Header({
   icon,
   className,
 }: IHeaderPorps) {
-  const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const { t } = useTranslation();
+  const { lang } = useParams<any>();
+
   return (
     <header className={`${style.header_wrapper} ${className || ''}`}>
       <div className={style.header}>
@@ -52,22 +58,24 @@ function Header({
             Docker
           </a>
         </nav>
-        <select
+        <UiKitSelect
+          value={lang || 'ru'}
+          options={[
+            { id: 'ru', title: 'Русский' },
+            { id: 'en', title: 'English' },
+            { id: 'es', title: 'Español' },
+            { id: 'fr', title: 'Français' },
+            { id: 'hi', title: 'हिन्दी' },
+            { id: 'ch', title: '中文' },
+            { id: 'jp', title: '日本語' },
+            { id: 'ko', title: '한국어' },
+          ]}
           className={style.header_select}
-          onChange={(event) => {
-            console.dir(event.target.value);
-            i18n.changeLanguage(event.target.value);
+          onChange={(value: any) => {
+            console.dir(value);
+            navigate(`/${value}`);
           }}
-        >
-          <option value="ru">Русский</option>
-          <option value="en">English</option>
-          <option value="es">Español</option>
-          <option value="fr">Français</option>
-          <option value="hi">हिन्दी</option>
-          <option value="ch">中文</option>
-          <option value="jp">日本語</option>
-          <option value="ko">한국어</option>
-        </select>
+        />
       </div>
     </header>
   );

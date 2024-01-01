@@ -20,6 +20,12 @@ render(
     <HashRouter>
       <Routes>
         <Route
+          path="/:lang"
+          element={(
+            <Main />
+          )}
+        />
+        <Route
           path="*"
           element={(
             <Main />
