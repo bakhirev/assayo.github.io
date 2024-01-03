@@ -61,12 +61,14 @@ function Header({
         <UiKitSelect
           value={lang || 'ru'}
           options={[
-            { id: 'ru', title: 'Русский' },
             { id: 'en', title: 'English' },
             { id: 'es', title: 'Español' },
-            { id: 'fr', title: 'Français' },
-            { id: 'hi', title: 'हिन्दी' },
             { id: 'ch', title: '中文' },
+            { id: 'de', title: 'Deutsch' },
+            { id: 'fr', title: 'Français' },
+            { id: 'pt', title: 'Português' },
+            { id: 'ru', title: 'Русский' },
+            { id: 'hi', title: 'हिन्दी' },
             { id: 'jp', title: '日本語' },
             { id: 'ko', title: '한국어' },
           ]}
