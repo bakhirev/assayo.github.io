@@ -33,13 +33,13 @@ export default `
 § main.users.ceo.description4: прогноз времи доработок
 § main.users.ceo.description5: прогноз стоимости
 § main.comments.title: Отзывы заказчиков
-§ main.comments.user1.name: Александр Соломихин
+§ main.comments.user1.name: Александр Гофман
 § main.comments.user1.message: Программа дает возможность смотреть, как на самом деле работает команда и сопоставлять с тем, что ты слышишь на дейли. Для руководителя прямо очень норм.
-§ main.comments.user2.name: Михаил Узков
+§ main.comments.user2.name: Антон Хан
 § main.comments.user2.message: Пришел на новую работу и сразу определил стиль работы, зоны компетенций и кто есть кто в команде. Отличный onbording!
 § main.comments.user3.name: Евгений Подолов
 § main.comments.user3.message: Сделал аудит проекта. Нашел двух программистов, которые не работали. Поменял менеджера проекта, поменял программистов.
-§ main.comments.user4.name: Марат Мометов
+§ main.comments.user4.name: Марат Сафин
 § main.comments.user4.message: Если ты тимлид, который следит за проектом, но не знаешь реально человек наткнулся на проблему и срываются сроки или он ничего не делает, то такой инструмент сильно полезен.
 § main.docker.text1: Скачай готовый
 § main.docker.text2: Docker образ
