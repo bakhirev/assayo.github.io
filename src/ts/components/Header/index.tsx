@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 import UiKitSelect from 'ts/components/Select';
+import defaultLanguage from 'ts/helpers/i18n';
 
 import style from './index.module.scss';
 
@@ -59,22 +60,20 @@ function Header({
           </a>
         </nav>
         <UiKitSelect
-          value={lang || 'ru'}
+          value={lang || defaultLanguage}
           options={[
             { id: 'en', title: 'English' },
             { id: 'es', title: 'Español' },
-            { id: 'ch', title: '中文' },
+            { id: 'zh', title: '中文' },
             { id: 'de', title: 'Deutsch' },
             { id: 'fr', title: 'Français' },
             { id: 'pt', title: 'Português' },
             { id: 'ru', title: 'Русский' },
-            { id: 'hi', title: 'हिन्दी' },
-            { id: 'jp', title: '日本語' },
+            { id: 'ja', title: '日本語' },
             { id: 'ko', title: '한국어' },
           ]}
           className={style.header_select}
           onChange={(value: any) => {
-            console.dir(value);
             navigate(`/${value}`);
           }}
         />

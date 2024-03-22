@@ -1,9 +1,9 @@
-# [Assayo](https://assayo.jp/)
+# [Assayo](https://assayo.online/)
 
-This is [landing page](https://assayo.jp/) for git statistics [visualisation](https://github.com/bakhirev/assayo).
+This is [landing page](https://assayo.online/) for git statistics [visualisation](https://github.com/bakhirev/assayo).
   
 ### Contacts
+- telegramm [@bakhirev](https://t.me/bakhirev) (priority method of communication)
 - [alexey-bakhirev@yandex.ru](mailto:alexey-bakhirev@yandex.ru)
-- telegramm [@bakhirev](https://t.me/volarenege)
-- site [https://assayo.jp/](https://assayo.jp/)
+- website [https://assayo.online/](https://assayo.online/?ref=github&lang=en)
 

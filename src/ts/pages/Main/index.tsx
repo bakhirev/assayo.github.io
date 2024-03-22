@@ -55,7 +55,7 @@ function MainPage() {
         <Users/>
         <Features/>
         <Comments/>
-        <Docker/>
+        {false && <Docker/>}
       </main>
       <Footer/>
     </>
