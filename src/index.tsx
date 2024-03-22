@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { render } from 'react-dom';
 
 import './ts/helpers/i18n';
@@ -17,7 +17,7 @@ if (module.hot) {
 
 render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/:lang"
@@ -32,7 +32,7 @@ render(
           )}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );
