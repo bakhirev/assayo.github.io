@@ -44,9 +44,12 @@ const translations = {
   zh: getTranslationWrapper(zh),
 };
 
-const defaultLanguage = navigator.languages
+const getLanguage = (code: string) => translations[code] ? code : null;
+const userLanguage = navigator.languages
   .filter((language) => language.length === 2 && translations[language])
-  .shift() || 'en';
+  .shift() || ''; // @ts-ignore
+const lang = new URL(document.location).searchParams.get('lang') || '';
+const defaultLanguage = getLanguage(lang) || getLanguage(userLanguage) || 'en';
 
 i18next.use(initReactI18next).init({
   lng: defaultLanguage, // if you're using a language detector, do not define the lng option

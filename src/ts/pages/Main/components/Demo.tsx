@@ -1,11 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useParams } from 'react-router-dom';
+
+import defaultLanguage from 'ts/helpers/i18n';
 
 import style from '../styles/main.module.scss';
 import button from '../styles/button.module.scss';
 
 function Demo(): React.ReactElement | null {
   const { t } = useTranslation();
+  const { lang } = useParams<any>();
+  const language = lang || defaultLanguage;
+
   return (
     <section className={style.main_view}>
       <figure className={style.main_view_icon}>
@@ -29,13 +35,13 @@ function Demo(): React.ReactElement | null {
         <nav className={style.main_view_nav}>
           <a
             className={button.button}
-            href="/demo/"
+            href={`/demo/?lang=${language}`}
           >
             {t('main.demo.link1')}
           </a>
           <a
             className={button.button_link}
-            href="/demo/?dump=./test.txt"
+            href={`/demo/?lang=${language}&dump=./test.txt`}
           >
             {t('main.demo.link2')}
           </a>

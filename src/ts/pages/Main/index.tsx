@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Header from 'ts/components/Header';
 import Footer from 'ts/components/Footer';
 import Title from 'ts/components/Title';
+import defaultLanguage from 'ts/helpers/i18n';
 
 import Demo from './components/Demo';
 import Features from './components/Features';
@@ -42,7 +43,7 @@ function MainPage() {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    i18n.changeLanguage(lang || 'ru');
+    i18n.changeLanguage(lang || defaultLanguage);
   }, [lang]);
 
   return (
