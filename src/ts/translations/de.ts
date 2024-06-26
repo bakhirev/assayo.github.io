@@ -1,6 +1,7 @@
 export default `
 § header.main: Startseite
 § header.demo: Demo
+§ header.contact: Kontakte
 § main.demo.title1: visualisierung
 § main.demo.title2: von git statistiken
 § main.demo.description: Erhalte ein audit deines oder eines anderen projekts

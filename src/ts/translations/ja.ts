@@ -1,6 +1,7 @@
 export default `
 § header.main: メインページ
 § header.demo: デモ
+§ header.contact: 連絡先
 § main.demo.title1: git 統計
 § main.demo.title2: の可視化
 § main.demo.description: あなた自身または他の誰かのプロジェクトの監査を受ける

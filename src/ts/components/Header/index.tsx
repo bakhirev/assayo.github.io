@@ -58,6 +58,14 @@ function Header({
           >
             Docker
           </a>
+          <a
+            className={style.header_link}
+            href="https://t.me/bakhirev"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {t('header.contact')}
+          </a>
         </nav>
         <UiKitSelect
           value={lang || defaultLanguage}

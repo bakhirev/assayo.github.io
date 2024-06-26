@@ -1,6 +1,7 @@
 export default `
 § header.main: 首页
 § header.demo: 示范
+§ header.contact: 联络人
 § main.demo.title1: git 统计
 § main.demo.title2: 的可视化
 § main.demo.description: 对自己或他人的项目进行审计

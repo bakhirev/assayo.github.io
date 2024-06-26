@@ -1,6 +1,7 @@
 export default `
 § header.main: Главная
 § header.demo: Демо
+§ header.contact: Контакты
 § main.demo.title1: Аудит
 § main.demo.title2: git-статистики
 § main.demo.description: Получи аудит своего или чужого проекта
