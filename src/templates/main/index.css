@@ -1,0 +1,30 @@
+@import "../core/reset.css";
+@import "../core/variables.css";
+@import "../core/base.css";
+
+@import "../../components/Footer/index.css";
+
+@import "./header.css";
+@import "./main.css";
+@import "./tariff.css";
+@import "./banner.css";
+@import "./uikit.css";
+
+body {
+    min-height: 100vh;
+    color: var(--color-white);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    display: block;
+    width: 100%;
+    height: 705px;
+    background-color: #3758F9;
+}

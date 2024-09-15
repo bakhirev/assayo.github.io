@@ -1,0 +1,149 @@
+.article {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto 64px;
+}
+
+.article h1 {
+  font-size: 100px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 60vh;
+  padding: 90px 10% 100px;
+  margin: 0 auto 48px;
+
+  line-height: 0.85;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+
+  color: #12131b;
+  background-color: #EEEEEE;
+}
+
+.article a,
+.article a:hover,
+.article a:visited {
+  color: var(--color-button);
+}
+
+.article a:hover {
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: var(--color-grey);
+}
+
+.article pre,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article li,
+.article p,
+.article figcaption {
+  font-size: 22px;
+  font-weight: 100;
+
+  display: block;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 12px;
+
+  line-height: 1.5;
+  text-align: left;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: #3C3C3D;
+}
+
+.article figure {
+  display: block;
+  width: 90%;
+  max-width: 700px;
+  margin: 24px auto;
+}
+
+.article img {
+  display: block;
+  width: 100%;
+}
+
+.article figcaption {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.article pre {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 1px solid #DDDDDD;
+  background-color: #EEEEEE;
+}
+
+.article h2,
+.article h3,
+.article h4,
+.article h5 {
+  font-weight: bold;
+}
+
+.article ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.article li {
+  position: relative;
+  padding-left: 36px;
+}
+
+.article li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '—';
+
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.article ul + h3,
+.article ul + h4,
+.article p + h3,
+.article p + h4 {
+  margin-top: 32px;
+}
+
+.article p + p {
+  text-indent: 32px;
+}
+
+@media (max-width: 900px) {
+  .article pre,
+  .article h2,
+  .article h3,
+  .article h4,
+  .article h5,
+  .article li,
+  .article p {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .article h1 {
+    font-size: 50px;
+    padding: 40px 10% 50px;
+    min-height: 30vh;
+  }
+}

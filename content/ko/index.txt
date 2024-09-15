@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: ko
+§ meta.title: 아사요-자식 로그의 시각화 및 분석
+§ meta.description.short: 힘내는 개발자 팀의 생산성을 높일 기반 분석을 커밋합니다.
+§ meta.description.long: 당신이 전체 그림을 기반으로 결정을 내릴 수 있도록 힘내 로그에서 내부자 정보. 개발 팀의 작업을 확인하십시오:일 보고서,실제 일정 및 릴리스 구성,배달 시간,팀 구성 등으로 작업하십시오.
+§ meta.keywords: 이 응용 프로그램을 사용하면 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.이 응용 프로그램 내 구입에 대한 정보를 얻을 수 있습니다.
+§ header.demo: 데모
+§ header.blog: 블로그
+§ header.contact: 연락처
+§ main.title: GIT log 의 시각화 및 분석
+§ main.description: 힘내 로그에서 내부자 정보는 개발자 팀의 생산성을 향상:하루 작업 일정,실제 일정 및 릴리스의 구성,배달 시간 등
+§ main.demo: 온라인 버전
+§ main.demoWithData: 테스트 데이터 데모
+§ tariff: 라이센스 구매
+§ tariff.personal.title: 개인
+§ tariff.personal.button: 무료
+§ tariff.company.title: 기업
+§ tariff.company.button: 라이센스 요청
+§ features
+일별 작업 보고서
+출시 일정 및 실제 구성
+기능 및 프로젝트 비용 분석
+납품 속도
+하청 업체 및 프로젝트에 대한 기여도 비교
+프로그래머를 위한 업적
+프로젝트에 대한 개인 권장 사항
+보고서 자동 업데이트
+리포지토리 그룹 처리
+조직 구조에 의한 보고서 쇼케이스
+인터페이스 브랜딩
+§ banner.title: 당신은 그것을 감사를 실시하고 있습니까?
+§ banner.description1: 분석을 통해 고객에게 자식 로그에 대한 보고서 제공
+§ banner.description2: (우리는 당신의 기업 정체성에이 보고서를 브랜드)
+§ banner.buy: 라이센스 요청
+§ banner.example: 예제 다운로드

@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: fr
+§ meta.title: Assayo - visualisation et analyse du git log
+§ meta.description.short: Analyses basées sur Git commit pour augmenter la productivité de l'équipe de développeurs.
+§ meta.description.long: Informations privilégiées du git log, vous permettant de prendre des décisions en fonction de l'image complète. Vérifiez le travail de l'équipe de développement: rapport de travail par jour, calendrier réel et composition des versions, délai de livraison, composition de l'équipe, etc.
+§ meta.keywords: git, log, stat, statistique, référentiel, validations, bitbucket, gitlab, jira, analytique,audit, informatique-audit, git, log, référentiel, statistiques, analyse, code, audit
+§ header.demo: Démo
+§ header.blog: Blogue
+§ header.contact: Coordonnées
+§ main.title: Visualisation et analyse du GIT log
+§ main.description: Informations privilégiées de git log pour augmenter la productivité de l'équipe de développeurs: le calendrier de travail par jour, le calendrier réel et la composition des versions, le délai de livraison, etc.
+§ main.demo: Version en ligne
+§ main.demoWithData: Démo avec les données de test
+§ tariff: Acheter une licence
+§ tariff.personal.title: Personnel
+§ tariff.personal.button: Est gratuit
+§ tariff.company.title: Entreprise
+§ tariff.company.button: Demande de licence
+§ features
+rapport de travail par jours
+calendrier de sortie et leur composition réelle
+analyse du coût des fonctionnalités et du projet
+vitesse de livraison
+comparaison des sous-traitants et de leur contribution au projet
+réalisations pour les programmeurs
+recommandations personnelles sur le projet
+mise à jour automatique des rapports
+traitement d'un groupe de référentiels
+présentation des rapports par la structure organisationnelle
+image de marque de l'interface
+§ banner.title: Effectuez-vous un audit informatique?
+§ banner.description1: Offrez aux clients des rapports sur git log avec analytics
+§ banner.description2: (nous faisons ces rapports dans votre identité d'entreprise)
+§ banner.buy: Demande de licence
+§ banner.example: Télécharger un exemple

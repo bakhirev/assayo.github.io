@@ -1,0 +1,29 @@
+.prev_next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 64px;
+}
+
+.prev_next_link {
+    font-size: 22px;
+    font-weight: 100;
+
+    display: inline-block;
+
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #3C3C3D;
+}
+
+.prev_next_link:hover {
+    color: var(--color-11)
+}

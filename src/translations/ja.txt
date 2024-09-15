@@ -1,0 +1,17 @@
+§ header.logo: Assayo logo
+§ prevNext.prev: « 前のページ
+§ prevNext.next: 次のページ »
+§ prevNext.all: 目次
+§ footer.assayo.about: プロジェクトについて:
+§ footer.assayo.online: オンライン版
+§ footer.assayo.demo: テストデータを使用したデモ
+§ footer.assayo.contacts: 連絡先
+§ footer.themes.title: テーマ:
+§ footer.themes.assayo: IT-監査
+§ footer.themes.teamlead: 人の管理
+§ footer.themes.project: プロジェクト管理
+§ footer.video.title: ビデオ:
+§ footer.languages: 言語:
+§ footer.install.title: インストール:
+§ footer.articles.title: 私達について:
+§ footer.right: ©すべての権利を保有

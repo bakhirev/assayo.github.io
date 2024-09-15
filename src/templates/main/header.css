@@ -1,0 +1,134 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    display: block;
+    margin: 0 auto;
+    padding: 12px 10%;
+    text-align: right;
+    /*background-color: #3758F9;*/
+    background-color: rgba(55, 88, 249, 0.7);
+}
+
+.header_logo {
+    position: absolute;
+    left: 10%;
+    top: 22px;
+
+    display: inline-block;
+    height: var(--space-xxl);
+    padding: 0;
+    margin: 0;
+
+    vertical-align: middle;
+}
+
+.header_link {
+    font-size: 17px;
+    font-weight: 400;
+
+    display: inline-block;
+    padding: 0;
+    margin: 8px 0 8px 50px;
+
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-decoration: underline;
+    cursor: pointer;
+
+    color: var(--color-white);
+}
+
+.header_link:hover {
+    color: #CEE0FF;
+}
+
+.header > select {
+    font-size: 17px;
+    font-weight: 400;
+
+    display: inline-block;
+    width: 120px;
+    padding: 2px 0 2px 12px;
+    margin: 8px 0 8px 50px;
+
+    outline: none;
+    text-align: left;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+    border-radius: 4px;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    background-color: transparent;
+}
+
+.header option {
+    color: #111111;
+}
+
+@media (max-width: 940px) {
+    .header_logo {
+        display: none;
+    }
+
+    .header {
+        top: auto;
+        left: 5%;
+        right: 5%;
+        bottom: var(--space-xxl);
+
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0;
+
+        white-space: nowrap;
+        text-align: center;
+
+        border-radius: var(--border-radius-m);
+        border: none;
+        background-color: var(--color-black);
+    }
+
+    .header_link {
+        font-size: 16px;
+        width: 33%;
+        margin: 0;
+        padding: 18px 0;
+
+        white-space: normal;
+        text-align: center;
+        text-decoration: none;
+
+        border-radius: var(--border-radius-m);
+        color: var(--color-grey);
+        background-color: var(--color-black);
+    }
+
+    .header_link:hover {
+        color: var(--color-black);
+        background-color: var(--color-grey);
+    }
+
+    .header_link:nth-child(6n+3),
+    .header_link:nth-child(6n+5) {
+        border-radius: 0;
+    }
+
+    .header_link:nth-child(6n+4) {
+        display: none;
+    }
+
+    .header > select {
+        width: 33%;
+        margin: 0;
+        border: none;
+        border-radius: var(--border-radius-m);
+        color: var(--color-grey);
+        background-color: var(--color-black);
+    }
+}
