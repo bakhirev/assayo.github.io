@@ -1,0 +1,17 @@
+§ header.logo: Assayo logo
+§ prevNext.prev: « 上一页
+§ prevNext.next: 下一页 »
+§ prevNext.all: 目录
+§ footer.assayo.about: 关于项目:
+§ footer.assayo.online: 网上版本
+§ footer.assayo.demo: 测试数据演示
+§ footer.assayo.contacts: 联络人
+§ footer.themes.title: 主题:
+§ footer.themes.assayo: IT-审计
+§ footer.themes.teamlead: 人事管理
+§ footer.themes.project: 项目管理
+§ footer.video.title: 短片:
+§ footer.languages: 语言:
+§ footer.install.title: 安装工程:
+§ footer.articles.title: 关于我们:
+§ footer.right:  版权所有不得转载

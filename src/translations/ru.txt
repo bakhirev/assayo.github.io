@@ -1,0 +1,17 @@
+§ header.logo: Логотип Assayo
+§ prevNext.prev: « назад
+§ prevNext.next: далее »
+§ prevNext.all: оглавление
+§ footer.assayo.about: О проекте:
+§ footer.assayo.online: Онлайн версия
+§ footer.assayo.demo: Посмотреть демо
+§ footer.assayo.contacts: Контакты
+§ footer.themes.title: Темы:
+§ footer.themes.assayo: Аудит разработки
+§ footer.themes.teamlead: Управление людьми
+§ footer.themes.project: Управление проектом
+§ footer.video.title: Видео:
+§ footer.languages: Языки:
+§ footer.install.title: Установка:
+§ footer.articles.title: Статьи о нас:
+§ footer.right: © Все права защищены

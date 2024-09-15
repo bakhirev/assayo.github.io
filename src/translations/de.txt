@@ -1,0 +1,17 @@
+§ header.logo: Assayo logo
+§ prevNext.prev: « vorherige Seite
+§ prevNext.next: nächste Seite »
+§ prevNext.all: Inhaltsverzeichnis
+§ footer.assayo.about: Über das Projekt:
+§ footer.assayo.online: Onlineversion
+§ footer.assayo.demo: Demo mit den Testdaten
+§ footer.assayo.contacts: Kontakt
+§ footer.themes.title: Thema:
+§ footer.themes.assayo: IT-Audit
+§ footer.themes.teamlead: Personalmanagement
+§ footer.themes.project: Projektmanagement
+§ footer.video.title: Video:
+§ footer.languages: Sprache:
+§ footer.install.title: Installation:
+§ footer.articles.title: Über uns:
+§ footer.right: © Alle Rechte vorbehalten

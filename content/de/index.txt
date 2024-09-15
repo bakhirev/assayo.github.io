@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: de
+§ meta.title: Assayo - Visualisierung und analyse des git-protokolls
+§ meta.description.short: Git-commit-basierte analysen zur steigerung der produktivität von entwicklerteams.
+§ meta.description.long: Insiderinformationen aus dem git log, mit denen sie entscheidungen basierend auf dem gesamtbild treffen können. Überprüfen sie die arbeit des entwicklungsteams: Arbeitstagebericht, aktueller zeitplan und zusammensetzung der releases, lieferzeit, teamzusammensetzung usw.
+§ meta.keywords: git, statistik, statistisches repository, commits, bitbucket, gitlab, jira, analytik, audit, IT-audit, git, log, repository, statistic, analyse, code, audit
+§ header.demo: Demo
+§ header.blog: Blog
+§ header.contact: Kontakt
+§ main.title: Visualisierung und analyse von GIT log
+§ main.description: Insiderinformationen aus dem git log zur steigerung der produktivität des Entwicklerteams: der arbeitsplan nach tag, der tatsächliche zeitplan und die zusammensetzung der releases, die lieferzeit usw.
+§ main.demo: Onlineversion
+§ main.demoWithData: Demo mit den testdaten
+§ tariff: Lizenz kaufen
+§ tariff.personal.title: Persönlich
+§ tariff.personal.button: Ist kostenlos
+§ tariff.company.title: Corporate
+§ tariff.company.button: Lizenz anfordern
+§ features
+arbeit nach tagen bericht
+veröffentlichungsplan und ihre tatsächliche zusammensetzung
+analyse der kosten für features und des projekts
+liefergeschwindigkeit
+vergleich der subunternehmer und ihres beitrags zum projekt
+erfolge für programmierer
+persönliche empfehlungen zum projekt
+automatische aktualisierung von berichten
+verarbeitung einer gruppe von repositories
+präsentation von berichten nach organisationsstruktur
+branding der schnittstelle
+§ banner.title: Führen sie ein IT-audit durch?
+§ banner.description1: Bieten sie kunden berichte über git log mit analysen an
+§ banner.description2: (wir brandmarken diese berichte in ihrer corporate identity)
+§ banner.buy: Lizenz anfordern
+§ banner.example: Beispiel herunterladen

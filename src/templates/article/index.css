@@ -1,0 +1,19 @@
+@import "../core/reset.css";
+@import "../core/variables.css";
+@import "../core/base.css";
+
+@import "../../components/PrevNext/index.css";
+@import "../../components/Recommendation/index.css";
+@import "../../components/Title/index.css";
+@import "../../components/Footer/index.css";
+@import "../../components/Console/index.css";
+
+@import "./article.css";
+
+.section {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    padding: 0;
+    margin: 0 auto 48px;
+}

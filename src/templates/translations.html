@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="white"/>
+
+  <meta name="defaultLanguage" content="ru">
+  <meta name="availableLanguages" content="en, es, fr, ja, pt, de, zh, ru">
+  <link rel="canonical" href="https://assayo.online/demo/">
+
+  <link rel="icon" href="%PUBLIC_URL%/favicon.svg"/>
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+
+  <link href="./core/reset.css" rel="stylesheet">
+  <link href="./core/base.css" rel="stylesheet">
+  <style>
+    main {
+        white-space: nowrap;
+        width: 100vw;
+        height: 99vh;
+    }
+    textarea {
+        display: inline-block;
+        width: 25%;
+        height: 100%;
+        border: none;
+        white-space: normal;
+    }
+    textarea:hover {
+        background-color: #EEEEEE;
+    }
+  </style>
+</head>
+<body>
+
+<main><textarea id="a"></textarea><textarea id="b"></textarea><textarea id="c"></textarea><textarea id="d"></textarea></main>
+
+<script type="text/javascript" >
+  const source = document.getElementById('a');
+  const onlyText = document.getElementById('b');
+  const translation = document.getElementById('c');
+  const result = document.getElementById('d');
+
+  source.addEventListener("change", () => {
+    const values = source.value.replace(/(&nbsp;)/gim, ' ').split('\n').map((part) => {
+      if (part[0] !== '§') return part;
+      const index = part.indexOf(':');
+      return index === -1 ? '' : part.slice(index + 1).trim();
+    });
+    onlyText.value = values.join('\n');
+  });
+
+  translation.addEventListener("change", () => {
+    const values = translation.value.split('\n');
+    const keys = source.value.split('\n').map((line) => (
+      line[0] === '§'
+        ? line.split(':').shift()
+        : ''
+    ));
+    const list = values.map((item, index) => {
+      return keys[index] && values[index]
+        ? `${keys[index]}: ${values[index]}`
+        : (keys[index] || values[index]);
+    });
+    result.value = list.join('\n');
+  });
+</script>
+</body>
+</html>
