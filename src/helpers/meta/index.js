@@ -1,0 +1,68 @@
+const path = require('node:path');
+
+const { PAGE_ORDER } = require('./constants');
+
+module.exports = class Meta {
+  constructor() {
+    this.hash = Math.ceil(Math.random() * 1000000);
+    this.refIdMeta = {};
+  }
+
+  add(fileName, attributes, article) {
+    const info = this.create(fileName, attributes, article);
+    this.addInRef(info);
+  }
+
+  create(fileName, attributes, article) {
+    const infoFromPath = this.getInfoFromPath(fileName);
+
+    const description = attributes.description || {};
+    const firstTitle = article.find(tag => tag.tag === 'h1');
+    const title = attributes.title || firstTitle?.content || '';
+    const recommendations = attributes.recommendations || [];
+
+    const index = PAGE_ORDER.indexOf(infoFromPath.id);
+    const hasPagination = index !== -1;
+    const prev = hasPagination ? PAGE_ORDER[index - 1] : null;
+    const next = hasPagination ? PAGE_ORDER[index + 1] : null;
+
+    return {
+      ...infoFromPath,
+      ...attributes,
+      title,
+      hash: this.hash,
+      template: 'article',
+      description: {
+        short: description?.short || description?.long || title || '',
+        long: description?.long || description?.short || title || '',
+      },
+      prev,
+      next,
+      recommendations,
+      youtube: 'https://www.youtube.com/embed/mqfu-ea3jao?si=UD_lFAekj7UmiL5N',
+    };
+  }
+
+  getInfoFromPath(fileName) {
+    const parts = fileName.split(path.sep);
+    const id = parts.pop().split('.').shift();
+    const category = parts.pop();
+    parts.pop(); // blog
+    const language = parts.pop();
+    return { id, language, category, fileName };
+  }
+
+  addInRef(meta) {
+    const { id, language, category, fileName } = meta;
+    this.refIdMeta[id] = meta;
+    this.refIdMeta[`${category}.${id}`] = meta;
+    this.refIdMeta[`${language}.${category}.${id}`] = meta;
+    this.refIdMeta[fileName] = meta;
+  }
+
+  get(id) {
+    const meta = this.refIdMeta[id] || {};
+    meta.recommendations = meta.recommendations.map(id => this.refIdMeta[id]).filter(v => v);
+    return meta;
+  }
+}

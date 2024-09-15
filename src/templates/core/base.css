@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  outline: none;
+  box-sizing: inherit;
+}
+
+body,
+input,
+select {
+  font-family: -apple-system, system-ui, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  color: #12131B;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}

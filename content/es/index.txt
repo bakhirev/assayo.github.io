@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: es
+§ meta.title: Assayo - visualización y análisis de git log
+§ meta.description.short: Análisis basados en git commit para impulsar la productividad del equipo de desarrolladores.
+§ meta.description.long: Información privilegiada de git log, que le permite tomar decisiones basadas en la imagen completa. Consulta el trabajo del equipo de desarrollo: informe de trabajo por días, calendario real y composición de lanzamientos, plazo de entrega, composición del equipo, etc.
+§ meta.keywords: git, registro, estadísticas, estadísticas, repositorio, confirmaciones, bitbucket, gitlab, jira, análisis, auditoría, auditoría de ti, git, registro, repositorio, estadísticas, análisis, código, auditoría
+§ header.demo: Demostración
+§ header.blog: Blog
+§ header.contact: Contactos
+§ main.title: Visualización y análisis de GIT log
+§ main.description: Información privilegiada de git log para impulsar la productividad del equipo de desarrolladores: el horario de trabajo por día, el horario real y la composición de los lanzamientos, el tiempo de entrega, etc.
+§ main.demo: Versión en línea
+§ main.demoWithData: Demostración con los datos de prueba
+§ tariff: Compre una licencia
+§ tariff.personal.title: Personal
+§ tariff.personal.button: Es gratis
+§ tariff.company.title: Corporativo
+§ tariff.company.button: Solicitar licencia
+§ features
+informe de trabajo por días
+calendario de lanzamientos y su composición real.
+análisis del coste de las prestaciones y del proyecto
+velocidad de entrega
+comparación de subcontratistas y su contribución al proyecto
+logros para programadores
+recomendaciones personales sobre el proyecto
+actualización automática de informes
+procesamiento de un grupo de repositorios
+escaparate de informes por estructura organizativa
+branding de la interfaz
+§ banner.title: ¿Está realizando una auditoría de TI?
+§ banner.description1: Ofrezca a los clientes informes sobre git log con análisis
+§ banner.description2: (marcamos estos informes en su identidad corporativa)
+§ banner.buy: Solicitar licencia
+§ banner.example: Descargar un ejemplo

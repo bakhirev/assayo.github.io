@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: en
+§ meta.title: Assayo - visualization and analysis of git log
+§ meta.description.short: Git commit based analytics to boost developer team productivity.
+§ meta.description.long: Insider Information from git log, allowing you to make decisions based on the full picture. Check the work of the development team: work by days report, actual schedule and composition of releases, delivery time, team composition, etc.
+§ meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
+§ header.demo: Demo
+§ header.blog: Blog
+§ header.contact: Contacts
+§ main.title: Visualization and analysis of GIT log
+§ main.description: Insider Information from git log to boost developer team productivity: the work schedule by day, the actual schedule and composition of releases, delivery time, etc.
+§ main.demo: Online version
+§ main.demoWithData: Demo with the test data
+§ tariff: Buy a license
+§ tariff.personal.title: Personal
+§ tariff.personal.button: Is free
+§ tariff.company.title: Corporate
+§ tariff.company.button: Request license
+§ features
+work by days report
+release schedule and their actual composition
+analysis of the cost of features and the project
+delivery speed
+comparison of sub-contractors and their contribution to the project
+achievements for programmers
+personal recommendations on the project
+auto-updating of reports
+processing of a group of repositories
+showcase of reports by the organizational structure
+branding of the interface
+§ banner.title: Are you conducting an IT Audit?
+§ banner.description1: Offer customers reports about git log with analytics
+§ banner.description2: (we brand this reports in your corporate identity)
+§ banner.buy: Request license
+§ banner.example: Download an example

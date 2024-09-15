@@ -1,0 +1,17 @@
+§ header.logo: Logotipo de Assayo
+§ prevNext.prev: « página anterior
+§ prevNext.next: página siguiente »
+§ prevNext.all: tabla de contenidos
+§ footer.assayo.about: Sobre el proyecto:
+§ footer.assayo.online: Versión en línea
+§ footer.assayo.demo: Demostración con los datos de prueba
+§ footer.assayo.contacts: Contactos
+§ footer.themes.title: Temas:
+§ footer.themes.assayo: Auditoría de TI
+§ footer.themes.teamlead: Gestión de personas
+§ footer.themes.project: Gestión de proyectos
+§ footer.video.title: Vídeo:
+§ footer.languages: Idiomas:
+§ footer.install.title: Instalación:
+§ footer.articles.title: Sobre nosotros:
+§ footer.right: © Todos los derechos reservados

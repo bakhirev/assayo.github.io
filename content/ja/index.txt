@@ -1,0 +1,35 @@
+§ meta.template: main
+§ meta.language: ja
+§ meta.title: Assayo - gitログの可視化と分析
+§ meta.description.short: Gitコミットベースの分析により、開発者チームの生産性が向上します。
+§ meta.description.long: Git logからのインサイダー情報により、全体像に基づいて意思決定を行うことができます。 開発チームの作業を確認してください：日ごとの作業レポート、実際のスケジュールとリリースの構成、納期、チーム構成など。
+§ meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
+§ header.demo: デモ
+§ header.blog: ブログ
+§ header.contact: 連絡先
+§ main.title: Gitログの可視化と分析
+§ main.description: 開発者チームの生産性を高めるためのgit logからのインサイダー情報：日ごとの作業スケジュール、リリースの実際のスケジュールと構成、配信時間など。
+§ main.demo: オンライン版
+§ main.demoWithData: テストデータを使用したデモ
+§ tariff: ライセンスを購入する
+§ tariff.personal.title: 個人
+§ tariff.personal.button: 無料です
+§ tariff.company.title: 法人
+§ tariff.company.button: ライセンスを要求する
+§ features
+日ごとの作業レポート
+リリーススケジュールとその実際の構成
+機能とプロジェクトのコストの分析
+配達速度
+下請け業者の比較とプロジェクトへの貢献
+プログラマーのための実績
+プロジェクトに関する個人的な推奨事項
+レポートの自動更新
+リポジトリのグループの処理
+組織構造別報告書の紹介
+インターフェイスのブランディング
+§ banner.title: IT監査を実施していますか？
+§ banner.description1: 既製の分析で顧客にコードレポートを提供する
+§ banner.description2: （私たちはあなたのコーポレートアイデンティティでこのレポートをブランド化）
+§ banner.buy: ライセンスを要求する
+§ banner.example: 例をダウンロードする

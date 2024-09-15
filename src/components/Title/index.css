@@ -1,0 +1,17 @@
+.title {
+    font-size: 22px;
+    font-weight: bold;
+
+    display: block;
+    width: 100%;
+    margin: 48px auto 24px;
+
+    line-height: 1.5;
+    text-align: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    color: #3C3C3D;
+}
