@@ -48,23 +48,23 @@ function createPages() {
       const { seo, json } = mdToJson(text);
       meta.add(fileName, seo, json);
       const template = seo.template === 'blog' ? 'blog' : 'article';
-      return { template, json, path: dirs, fileName: name };
+      return { id: fileName, template, json, path: dirs, fileName: name };
     }
 
     if (/\.txt/gim.test(fileName)) {
       const json = txtToJson.parse(text);
       json.meta = txtToJson.getSeoFromJson(json);
-      return { template: 'main', json, path: dirs, fileName: name };
+      return { id: fileName, template: 'main', json, path: dirs, fileName: name };
     }
 
     const json = JSON.parse(text);
-    return { template: 'main', json, path: dirs, fileName: name };
+    return { id: fileName, template: 'main', json, path: dirs, fileName: name };
   });
 
   pages.forEach((data) => {
     const content = {
-      article: () => ArticlePage(data.json, meta.get(data.fileName)),
-      blog: () => BlogPage(data.json, meta.get(data.fileName)),
+      article: () => ArticlePage(data.json, meta.get(data.id)),
+      blog: () => BlogPage(data.json, meta.get(data.id)),
       main: () => MainPage(data.json, data.json.meta)
     }[data.template];
     if (data.template !== 'main') sitemap.push(data);

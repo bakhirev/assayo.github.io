@@ -7,7 +7,7 @@ const Footer = require('./components/Footer');
 const Analytics = require("../../components/Analytics");
 const { updateLanguage } = require("../../helpers/translations");
 
-module.exports = function(json, meta) {
+module.exports = function (json, meta) {
   updateLanguage(meta.language);
 
   return `

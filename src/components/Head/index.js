@@ -1,4 +1,4 @@
-const { DOMAIN } = require('../../helpers/constants');
+const { DOMAIN, VERSION } = require('../../helpers/constants');
 const { LANGUAGES } = require('../../helpers/translations');
 
 function getAvailableLanguages(meta) {
@@ -9,7 +9,6 @@ function getAvailableLanguages(meta) {
 }
 
 function getLink(meta) {
-  if (meta.template !== 'main') return 'ru';
   const page = meta.id === 'index' ? '' : meta.id;
   return {
     main: `${DOMAIN}/${meta.language}/`,
@@ -53,8 +52,8 @@ module.exports = function (meta) {
   
       <meta name="availableLanguages" content="${availableLanguages}">
       <link rel="canonical" href="${link}">
-      ${alternate}
-  
+      ${meta.template === 'main' ? alternate : ''}
+
       <link rel="icon" href="${DOMAIN}/favicon.svg" />
       <link rel="apple-touch-icon" href="${DOMAIN}/assets/icons/196.png" />
   
@@ -71,7 +70,7 @@ module.exports = function (meta) {
       <meta property="og:title" content="${title}">
       <meta property="og:description" content="${description}">
       <meta property="og:image" content="${DOMAIN}/assets/icons/256.png">
-      <meta property="og:url" content="${DOMAIN}">
+      <meta property="og:url" content="${link}">
       <meta property="og:locale" content="${meta.language}">
       <meta property="og:video" content="${DOMAIN}/assets/images/index.webm">
 
@@ -86,6 +85,6 @@ module.exports = function (meta) {
       <meta itemprop="description" content="${description}">
       <meta itemprop="image" content="${DOMAIN}/assets/icons/256.png">
 
-      <link href="%CSS_PATH%/assets/css/${cssName}.css?v=${meta.hash || Math.random()}" rel="stylesheet">
+      <link href="%CSS_PATH%/assets/css/${cssName}.css?v=${VERSION}" rel="stylesheet">
     </head>`;
 }

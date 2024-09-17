@@ -9,7 +9,7 @@ const { updateLanguage } = require('../../helpers/translations');
 const Analytics = require("../../components/Analytics");
 
 
-module.exports = function(json, meta) {
+module.exports = function (json, meta) {
   updateLanguage(meta.language);
 
   const recommendations = meta.recommendations.map((data) => {

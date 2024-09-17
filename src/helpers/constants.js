@@ -1,5 +1,7 @@
 const DOMAIN = 'https://assayo.online';
 
+const VERSION = Math.ceil(Math.random() * 100 * 100 * 100);
+
 const LINKS = {
   TRY: '/demo/?ref=blog',
   DEMO: '/demo/?ref=blog&dump=./test.txt',
@@ -22,4 +24,4 @@ const LINKS = {
   },
 }
 
-module.exports = {DOMAIN, LINKS};
+module.exports = { DOMAIN, LINKS, VERSION };

@@ -4,7 +4,6 @@ const { PAGE_ORDER } = require('./constants');
 
 module.exports = class Meta {
   constructor() {
-    this.hash = Math.ceil(Math.random() * 1000000);
     this.refIdMeta = {};
   }
 
@@ -30,8 +29,7 @@ module.exports = class Meta {
       ...infoFromPath,
       ...attributes,
       title,
-      hash: this.hash,
-      template: 'article',
+      template: attributes.template || 'article',
       description: {
         short: description?.short || description?.long || title || '',
         long: description?.long || description?.short || title || '',
@@ -47,7 +45,7 @@ module.exports = class Meta {
     const parts = fileName.split(path.sep);
     const id = parts.pop().split('.').shift();
     const category = parts.pop();
-    parts.pop(); // blog
+    if (category !== 'blog') parts.pop();
     const language = parts.pop();
     return { id, language, category, fileName };
   }

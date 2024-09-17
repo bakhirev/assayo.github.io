@@ -67,8 +67,8 @@
 .article figure {
   display: block;
   width: 90%;
-  max-width: 700px;
-  margin: 24px auto;
+  max-width: 900px;
+  margin: 32px auto;
 }
 
 .article img {
@@ -80,6 +80,7 @@
   font-size: 18px;
   width: 100%;
   text-align: center;
+  color: #AAAAAA;
 }
 
 .article pre {
@@ -127,6 +128,13 @@
 
 .article p + p {
   text-indent: 32px;
+}
+
+.article i {
+  padding: var(--space-xxxs) var(--space-xs);
+  white-space: nowrap;
+  border-radius: var(--border-radius-s);
+  background-color: #EEEEEE;
 }
 
 @media (max-width: 900px) {

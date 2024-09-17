@@ -1,3 +1,5 @@
+const { VERSION } = require('./constants');
+
 function replace(text, symbol, tag) {
   return text
     .split(symbol)
@@ -33,13 +35,13 @@ function getImage(tag) {
   if (!tag.title) {
     return `
       <figure>
-        <img src="${tag.src}" alt="${tag.alt}" />
+        <img src="${tag.src}?v=${VERSION}" alt="${tag.alt}" />
       </figure>`;
   }
 
   return `
     <figure>
-      <img src="${tag.src}" alt="${tag.alt}" />
+      <img src="${tag.src}?v=${VERSION}" alt="${tag.alt}" />
       <figcaption>${tag.title}</figcaption>
     </figure>`;
 }

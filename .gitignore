@@ -4,7 +4,6 @@
 /.pnp
 /.idea
 /build
-/dist
 /old
 
 npm-debug.log*
