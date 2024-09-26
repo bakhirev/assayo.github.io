@@ -1,1 +1,1 @@
-- написание инструкций оформления бага
+https://www.youtube.com/watch?v=ojRZNSSr4I8

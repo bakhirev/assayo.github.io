@@ -21,6 +21,7 @@ function getSeoFromJson(json) {
     },
     keywords: json['meta.keywords'],
     recommendations: json['meta.recommendations'],
+    youtube: json['meta.youtube'],
   }
 }
 

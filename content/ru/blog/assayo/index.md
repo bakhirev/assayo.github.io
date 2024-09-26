@@ -2,6 +2,7 @@
 [long]:# "Парсинг истории коммитов из git log. Визуализация и анализ статистики."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ"
 [recommendations]:# "team_money, personal_achievements, recommendations"
+[youtube]:# "mqfu-ea3jao"
 
 # Парсинг истории коммитов
 

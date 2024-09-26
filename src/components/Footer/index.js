@@ -16,7 +16,7 @@ module.exports = function(meta, baseUrl = '..') {
     ${Column(t('footer.themes.title'), [
       { title: t('footer.themes.assayo'), url: `${baseUrl}/assayo/` },
       { title: t('footer.themes.teamlead'), url: `${baseUrl}/teamlead/` },
-      { title: t('footer.themes.project'), url: `${baseUrl}/project/` },
+      // { title: t('footer.themes.project'), url: `${baseUrl}/project/` },
     ])}
   
     ${Column(t('footer.video.title'), [

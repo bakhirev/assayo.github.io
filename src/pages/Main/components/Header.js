@@ -23,7 +23,7 @@ module.exports = function(json, meta) {
       <a href="${LINKS.DOCKER}"  target="_blank" class="header_link">
         Docker
       </a>
-      ${language === 'ru2' ? BlogLink(json, language) : ''}
+      ${language === 'ru' ? BlogLink(json, language) : ''}
       ${HeaderSelect(language)}
     </header>`;
 }

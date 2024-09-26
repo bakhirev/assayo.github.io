@@ -3,6 +3,7 @@
 [long]:# "Номера задач можно найти в логах git. Assayo автоматически может найти все номера, восстановить их и представить ввиде таблицы."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ,  список задач, tasks, экспорт, импорт"
 [recommendations]:# "recommendations, team_day"
+[youtube]:# "mqfu-ea3jao"
 
 # Список задач
 

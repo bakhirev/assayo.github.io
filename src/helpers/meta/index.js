@@ -1,6 +1,7 @@
 const path = require('node:path');
 
 const { PAGE_ORDER } = require('./constants');
+const { LINKS } = require('../constants');
 
 module.exports = class Meta {
   constructor() {
@@ -37,7 +38,7 @@ module.exports = class Meta {
       prev,
       next,
       recommendations,
-      youtube: 'https://www.youtube.com/embed/mqfu-ea3jao?si=UD_lFAekj7UmiL5N',
+      youtube: attributes.youtube || LINKS.YOUTUBE,
     };
   }
 

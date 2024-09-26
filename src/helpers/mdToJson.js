@@ -58,6 +58,7 @@ function getSEO() {
     },
     keywords: [],
     recommendations: [],
+    youtube: '',
   }
 }
 
@@ -105,6 +106,7 @@ function getJsonFromMarkdown(markdownText) {
     else if (code === '[long]:#') seo.description.long = removeQuotationMarks(content);
     else if (code === '[tags]:#') seo.keywords = removeQuotationMarks(content);
     else if (code === '[layout]:#') seo.template = removeQuotationMarks(content);
+    else if (code === '[youtube]:#') seo.youtube = removeQuotationMarks(content);
     else if (code === '[recommendations]:#') {
       seo.recommendations = removeQuotationMarks(content).split(',').map(v => v.trim()).filter(v => v);
     } else if (code === '#') json.push({ tag: 'h1', content });
@@ -112,8 +114,10 @@ function getJsonFromMarkdown(markdownText) {
     else if (code === '###') json.push({ tag: 'h3', content });
     else if (code === '####') json.push({ tag: 'h4', content });
     else if (code === '#####') json.push({ tag: 'h5', content });
+    else if (code === '>>') json.push({ tag: 'div', isOpen: true });
+    else if (code === '<<') json.push({ tag: 'div', isOpen: false });
     else if (code === '<img') json.push(getImageJson(line));
-    else json.push({ tag: 'p', content: line });
+    else if (line) json.push({ tag: 'p', content: line });
   });
 
   li.close(json);

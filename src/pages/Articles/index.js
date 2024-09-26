@@ -34,7 +34,8 @@ module.exports = function (json, meta) {
           ${YouTube(meta.youtube)}
         </section>
         ${Footer(meta)}
-        ${Analytics()}
       </body>
     </html>`;
 }
+
+// ${Analytics()}

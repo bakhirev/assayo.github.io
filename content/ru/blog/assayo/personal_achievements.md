@@ -2,6 +2,7 @@
 [long]:# "На основании статистики коммитов в git, программист может получить разные ачивки. Это стимулирует разработчиков менять своё поведение."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ, achievements, достижения, награды, ачивки"
 [recommendations]:# "recommendations, team_day"
+[youtube]:# "mqfu-ea3jao"
 
 # Ачивки за код
 
