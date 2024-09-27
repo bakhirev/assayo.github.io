@@ -3,6 +3,7 @@
 § prevNext.next: página seguinte »
 § prevNext.all: índice
 § footer.assayo.about: Sobre o projecto:
+§ footer.assayo.main: Página principal
 § footer.assayo.online: Versão em linha
 § footer.assayo.demo: Demonstração com os dados de ensaio
 § footer.assayo.contacts: Contactos

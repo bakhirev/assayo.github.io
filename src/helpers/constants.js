@@ -11,6 +11,7 @@ const LINKS = {
   NPM: 'https://www.npmjs.com/package/assayo',
   COMPOSER: 'https://packagist.org/packages/bakhirev/assayo',
   PIP: 'https://pypi.org/project/assayo/',
+  GEM: 'https://rubygems.org/gems/assayo',
 
   REDDIT: 'https://www.reddit.com/r/ITManagers/comments/1e5k291/the_visualization_and_analysis_of_git_commit/',
   VC: 'https://vc.ru/tribuna/1283182-vizualizaciya-i-analiz-git-log-provodim-audit-komandy-razrabotki',

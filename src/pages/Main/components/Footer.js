@@ -19,6 +19,7 @@ module.exports = function() {
       { title: 'NodeJS', url: LINKS.NPM },
       { title: 'PHP', url: LINKS.COMPOSER },
       { title: 'Python', url: LINKS.PIP },
+      { title: 'Ruby', url: LINKS.GEM },
     ])}
 
     ${Column(t('footer.articles.title'), [

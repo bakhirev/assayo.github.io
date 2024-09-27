@@ -3,6 +3,7 @@
 § prevNext.next: 다음 페이지 »
 § prevNext.all: 내용 표
 § footer.assayo.about: 프로젝트에 대해:
+§ footer.assayo.main: 메인 페이지
 § footer.assayo.online: 온라인 버전
 § footer.assayo.demo: 테스트 데이터 데모
 § footer.assayo.contacts: 연락처

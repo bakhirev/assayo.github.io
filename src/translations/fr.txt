@@ -3,6 +3,7 @@
 § prevNext.next: page suivante »
 § prevNext.all: table des matières
 § footer.assayo.about: À propos du projet:
+§ footer.assayo.main: Page principale
 § footer.assayo.online: Version en ligne
 § footer.assayo.demo: Démo avec les données de test
 § footer.assayo.contacts: Coordonnées
