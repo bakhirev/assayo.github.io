@@ -13,7 +13,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     cssChunkFilename: '[name].css',
-    path: path.resolve(__dirname, 'dist/assets/css'),
+    path: path.resolve(__dirname, 'docs/assets/css'),
   },
   module: {
     rules: [
@@ -48,7 +48,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
     new CopyWebpackPlugin({
-      patterns: [{ from: 'public', to: path.resolve(__dirname, 'dist') }]
+      patterns: [{ from: 'public', to: path.resolve(__dirname, 'docs') }]
     })
   ],
 }

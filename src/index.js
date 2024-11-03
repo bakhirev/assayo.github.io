@@ -26,7 +26,7 @@ const dirPrefix = getWorkDirPrefix();
 const sitemap = [];
 
 function createHtmlFile(fileInfo, content) {
-  const folder = ['../dist', ...fileInfo.path].join(path.sep);
+  const folder = ['../docs', ...fileInfo.path].join(path.sep);
   const newPath = [folder, fileInfo.fileName + '.html'].join(path.sep);
   const newAbsolutePath = path.join(__dirname, newPath);
   const pathForCSS = fileInfo.path.slice(1).map(() => '..').join('/');
@@ -74,14 +74,14 @@ function createPages() {
 
 function createSiteMap(sitemap) {
   const content = SiteMapPage(sitemap);
-  const fileName = path.join(__dirname, '../dist/sitemap.xml');
+  const fileName = path.join(__dirname, '../docs/sitemap.xml');
   writeFile(fileName, content);
 }
 
 function createMainPage() {
-  const text = readFile(path.join(__dirname, '../dist/en/index.html'));
+  const text = readFile(path.join(__dirname, '../docs/en/index.html'));
   const content = text.replace(/"\.\.\//gim, '"./');
-  const fileName = path.join(__dirname, '../dist/index.html');
+  const fileName = path.join(__dirname, '../docs/index.html');
   writeFile(fileName, content);
 }
 
