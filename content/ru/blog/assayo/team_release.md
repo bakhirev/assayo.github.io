@@ -3,7 +3,7 @@
 [long]:# "Собираем фактический состав и график релизов из git log"
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ, релиз, состав, changelog, release, график, поставка"
 [recommendations]:# "task_list, recommendations"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Состав релизов
 

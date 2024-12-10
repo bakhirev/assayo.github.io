@@ -21,7 +21,7 @@ module.exports = function(meta, baseUrl = '..') {
     ])}
   
     ${Column(t('footer.video.title'), [
-      { title: 'PiterJS', url: 'https://www.youtube.com/watch?v=mqfu-ea3jao' },
+      { title: 'PiterJS', url: 'https://www.youtube.com/watch?v=jwCp_-bhrCQ' },
       { title: 'TeamLeadConf', url: 'https://www.youtube.com/@ManagementChannel/playlists' },
       { title: 'Yandex for Products', url: 'https://www.youtube.com/watch?v=yvSKcDrNYgw&list=PLEs8EuAPI73Bj78n7-BIW3s1we0r15yJl&pp=iAQB' },
     ])}

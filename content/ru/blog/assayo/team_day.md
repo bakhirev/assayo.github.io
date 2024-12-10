@@ -3,7 +3,7 @@
 [long]:# "Если вам нужно каждый день списывать время на задачи, то этот процесс можно автоматизировать. Assayo может показать кто, когда и какую задачу делал."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ,  список задач, tempo, time tracking, время, списание времени, трекинг, учёт, рабочее, график, табель"
 [recommendations]:# "team_year, recommendations"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Статистика по дням
 

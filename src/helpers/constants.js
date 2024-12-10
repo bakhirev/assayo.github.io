@@ -16,7 +16,7 @@ const LINKS = {
   REDDIT: 'https://www.reddit.com/r/ITManagers/comments/1e5k291/the_visualization_and_analysis_of_git_commit/',
   VC: 'https://vc.ru/tribuna/1283182-vizualizaciya-i-analiz-git-log-provodim-audit-komandy-razrabotki',
   HABR: 'https://habr.com/ru/articles/814035/',
-  YOUTUBE: 'https://www.youtube.com/embed/mqfu-ea3jao?si=UD_lFAekj7UmiL5N',
+  YOUTUBE: 'https://www.youtube.com/embed/jwCp_-bhrCQ?si=UD_lFAekj7UmiL5N',
 
   TG: 'https://t.me/bakhirev',
   FORM: {

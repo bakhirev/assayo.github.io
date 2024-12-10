@@ -1,7 +1,7 @@
 [short]:# "Пытаемся понять кто ты: жаворонок или сова?"
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ, коммиты, по часам, жаворонок, сова"
 [recommendations]:# "task_list, team_employee"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Статистика коммитов по часам в течении дня
 

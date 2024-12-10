@@ -1,6 +1,6 @@
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ, "
 [recommendations]:# "recommendations, team_day"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Статистика за год
 

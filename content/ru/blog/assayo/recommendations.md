@@ -3,7 +3,7 @@
 [long]:# "Assayo анализирует git log и ищет плохие паттерны управления или разработки. Вы можете обнаружить проблему в команде на ранней стадии."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ,  рекомендации, советы, проблемы, инсайды"
 [recommendations]:# "personal_achievements, team_money"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Рекомендации
 

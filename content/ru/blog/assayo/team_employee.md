@@ -2,7 +2,7 @@
 [long]:# "Количество человек, которое работало над проектом можно узнать из git log. Assayo автоматически соберет все аккаунты разработчиков и распишет аналитику по каждому."
 [tags]:# "git, bitbucket, gitlab, log, stat, statistic, гит, лог, статистика, анализ, сотрудники, список, программисты, состав, команда" 
 [recommendations]:# "team_money, recommendations"
-[youtube]:# "mqfu-ea3jao"
+[youtube]:# "jwCp_-bhrCQ"
 
 # Список сотрудников
 
