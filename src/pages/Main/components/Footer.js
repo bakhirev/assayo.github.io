@@ -9,7 +9,7 @@ module.exports = function() {
 
   return Wrapper(`
     ${Column(t('footer.assayo.about'), [
-      { title: t('footer.assayo.online'), url: LINKS.TRY },
+      { title: t('footer.bakhirev.github.io'), url: LINKS.TRY },
       { title: t('footer.assayo.demo'), url: LINKS.DEMO },
     ])}
 

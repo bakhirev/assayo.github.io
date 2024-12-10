@@ -4,7 +4,7 @@
 § prevNext.all: Inhaltsverzeichnis
 § footer.assayo.about: Über das Projekt:
 § footer.assayo.main: Startseite
-§ footer.assayo.online: Onlineversion
+§ footer.bakhirev.github.io: Onlineversion
 § footer.assayo.demo: Demo mit den Testdaten
 § footer.assayo.contacts: Kontakt
 § footer.themes.title: Thema:

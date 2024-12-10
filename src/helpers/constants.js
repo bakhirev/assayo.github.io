@@ -1,4 +1,4 @@
-const DOMAIN = 'https://assayo.online';
+const DOMAIN = 'https://bakhirev.github.io';
 
 const VERSION = Math.ceil(Math.random() * 100 * 100 * 100);
 

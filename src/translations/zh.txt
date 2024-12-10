@@ -4,7 +4,7 @@
 § prevNext.all: 目录
 § footer.assayo.about: 关于项目:
 § footer.assayo.main: 主页
-§ footer.assayo.online: 网上版本
+§ footer.bakhirev.github.io: 网上版本
 § footer.assayo.demo: 测试数据演示
 § footer.assayo.contacts: 联络人
 § footer.themes.title: 主题:

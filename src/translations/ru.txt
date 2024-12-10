@@ -4,7 +4,7 @@
 § prevNext.all: оглавление
 § footer.assayo.about: О проекте:
 § footer.assayo.main: Главная
-§ footer.assayo.online: Онлайн версия
+§ footer.bakhirev.github.io: Онлайн версия
 § footer.assayo.demo: Посмотреть демо
 § footer.assayo.contacts: Контакты
 § footer.themes.title: Темы:

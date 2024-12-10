@@ -4,7 +4,7 @@
 § prevNext.all: índice
 § footer.assayo.about: Sobre o projecto:
 § footer.assayo.main: Página principal
-§ footer.assayo.online: Versão em linha
+§ footer.bakhirev.github.io: Versão em linha
 § footer.assayo.demo: Demonstração com os dados de ensaio
 § footer.assayo.contacts: Contactos
 § footer.themes.title: Temas:

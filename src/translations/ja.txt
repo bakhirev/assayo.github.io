@@ -4,7 +4,7 @@
 § prevNext.all: 目次
 § footer.assayo.about: プロジェクトについて:
 § footer.assayo.main: メインページ
-§ footer.assayo.online: オンライン版
+§ footer.bakhirev.github.io: オンライン版
 § footer.assayo.demo: テストデータを使用したデモ
 § footer.assayo.contacts: 連絡先
 § footer.themes.title: テーマ:

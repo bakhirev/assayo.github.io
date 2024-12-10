@@ -79,7 +79,7 @@ module.exports = function (meta) {
       <meta name="twitter:description" content="${description}">
       <meta name="twitter:creator" content="Bakhirev Aleksei">
       <meta name="twitter:image:src" content="${DOMAIN}/assets/icons/256.png">
-      <meta name="twitter:domain" content="assayo.online">
+      <meta name="twitter:domain" content="bakhirev.github.io">
 
       <meta itemprop="name" content="${title}">
       <meta itemprop="description" content="${description}">

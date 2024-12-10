@@ -7,7 +7,7 @@ module.exports = function(meta, baseUrl = '..') {
   return Wrapper(`
     ${Column(t('footer.assayo.about'), [
       { title: t('footer.assayo.main'), url: '/' },
-      { title: t('footer.assayo.online'), url: LINKS.TRY },
+      { title: t('footer.bakhirev.github.io'), url: LINKS.TRY },
       { title: t('footer.assayo.demo'), url: LINKS.DEMO },
       { title: 'Docker', url: LINKS.DOCKER },
       { title: 'Github', url: LINKS.GITHUB },
